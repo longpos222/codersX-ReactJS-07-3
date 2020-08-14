@@ -1,22 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/header.js';
+import LoginFormABC from './components/loginFormABC.js';
 
-function App() {
-  return (
-    <div className="App">
-
-      
-      <header className="App-header">
-        
-        <ul>  
-        <li>Go to market.</li>
-        <li>Buy food.</li>
-        <li>Make dinner.</li>
-        </ul>
-      </header>
-      </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Header />
+        <LoginFormABC />
+      </div>  
+    );
+  }
 }
 
 export default App;

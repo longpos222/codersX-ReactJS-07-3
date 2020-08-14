@@ -1,2 +1,2 @@
-## Bài 5 - Create React App
-Hướng dẫn sử dụng create-react-app CLI để tạo React project.
+## Bài 6 - Component
+Hướng dẫn cách phân tích, chia nhỏ 1 ứng dụng thành các Component
