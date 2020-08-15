@@ -1,6 +1,4 @@
-## Bài 6 - Component
-Hướng dẫn cách phân tích, chia nhỏ 1 ứng dụng thành các Component
+## BÀI 8
+### Lesson 01
 
-## Update ScreenShot:
-
-![Image](./public/ScreenShot-ReactJS-Lesson-06.png)
+![Image](./public/ScreenShot-ReactJS-Lesson-07.png)

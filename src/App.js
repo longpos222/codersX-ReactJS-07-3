@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {Header} from './components/Header';
 import {LoginForm} from './components/LoginForm';
+import {TabMenu} from './components/TabMenu';
 
 class App extends Component {
   render() {
@@ -10,6 +10,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <LoginForm />
+        <TabMenu />
       </div>  
     );
   }

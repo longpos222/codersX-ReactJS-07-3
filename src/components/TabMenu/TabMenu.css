@@ -1,0 +1,34 @@
+* {
+  /* border: dotted 1px red */
+}
+
+.tab-menu {
+  display: flex;
+  margin-top: 60px;
+  height: auto;
+  justify-content: space-around;
+  background-color: #DDDDDD;
+}
+
+.menu-item {
+  display: block;
+  border: 0.5px solid #d2cece;
+  width: 100%;
+  height: 100%;
+  padding: 30px 0;
+  
+}
+  
+.tab-menu-icon {  
+  text-align: center ; 
+}
+
+.tab-menu-icon img {
+  height: 80px;
+  width: 80px;
+}
+
+.icon-tittle{
+  margin-top: 5px;
+  text-align: center ;
+}
