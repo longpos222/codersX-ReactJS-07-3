@@ -1,0 +1,75 @@
+* {
+  /* border-style: dotted; */
+  font-size: 20px;
+}
+
+.LoginForm {
+  padding: 0 30%;
+  width: auto;
+}
+
+h1 {
+ text-align: center;
+ margin: 70px 0;
+ font-size: 80px;
+}
+
+.form-group {
+  border-radius: 6px;
+  border: solid 1px #999;
+  height: auto;
+  margin: 0.5rem;
+  padding: 10px 10px 5px 10px; 
+}
+
+.form-control {
+  margin:5px 0;
+  width: 100% ;
+  
+}
+
+.button {
+  background-color: #00BD56
+}
+
+form .button {
+  padding: 0px;
+}
+
+.form-group button {
+  border-style: none;
+  background-color: transparent;
+  color: #FFF;
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+  padding: 20px 0;
+}
+
+input {
+  padding: 0;
+  border-style: none;
+  line-height: 1.5;
+  font-size:14px;
+}
+
+.form-check {
+  text-align: center;
+  margin: 20px 0;
+  color: #999;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+  text-align: center;
+}
+
+.forgot a {
+  text-decoration-style: none;
+  margin-left: 20px;
+  color: #000000
+}
+
+.forgot {
+  text-align: center;
+}
