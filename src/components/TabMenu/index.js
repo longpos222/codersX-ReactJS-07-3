@@ -7,6 +7,8 @@ import IconWork from '../../images/TabMenu-work.svg';
 import IconSettings from '../../images/TabMenu-settings.svg';
 
 export const TabMenu = () => {
+
+  let menu = {};
     return(
       <div className="tab-menu">
 

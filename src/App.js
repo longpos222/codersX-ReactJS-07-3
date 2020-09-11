@@ -4,6 +4,7 @@ import {Header} from './components/Header';
 import {LoginForm} from './components/LoginForm';
 import {TabMenu} from './components/TabMenu';
 
+// Cộng Hòa Xã Hội Chủ Nghĩa Việt Nam
 class App extends Component {
   render() {
     return (
@@ -11,7 +12,7 @@ class App extends Component {
         <Header />
         <LoginForm />
         <TabMenu />
-      </div>  
+      </div>
     );
   }
 }
