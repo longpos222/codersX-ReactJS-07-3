@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import {Header} from './components/Header';
 import {LoginForm} from './components/LoginForm';
-import {TabMenu} from './components/TabMenu';
+import TabMenu from './components/TabMenu/index.js';
 
-// Cộng Hòa Xã Hội Chủ Nghĩa Việt Nam
 class App extends Component {
   render() {
     return (

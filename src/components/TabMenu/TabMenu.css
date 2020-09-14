@@ -2,33 +2,27 @@
   /* border: dotted 1px red */
 }
 
-.tab-menu {
+ul {
   display: flex;
-  margin-top: 60px;
-  height: auto;
-  justify-content: space-around;
   background-color: #DDDDDD;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+  text-align: center;
+  width: 20%;
 }
 
-.menu-item {
-  display: block;
+li {
+  padding: 1rem;
   border: 0.5px solid #d2cece;
-  width: 100%;
-  height: 100%;
-  padding: 30px 0;
+  list-style: none;
   
 }
-  
-.tab-menu-icon {  
-  text-align: center ; 
-}
 
-.tab-menu-icon img {
-  height: 80px;
-  width: 80px;
-}
-
-.icon-tittle{
-  margin-top: 5px;
-  text-align: center ;
+p {
+  margin: 0cm auto;
+  color: black;
 }
