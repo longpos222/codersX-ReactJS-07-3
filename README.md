@@ -1,12 +1,5 @@
 ## BÀI 7
-#### BÀI 2 
-1) Remix project ở bài 1
-2) Thêm prop items là một array để có thể thay đổi các menu con
-Gợi ý: items có thể có dạng như sau:
-```
-[
-  { icon: 'http://...', label: 'Home' },
-  ...
-]
-```
-Có thể download icon từ flaticon.com rồi upload lên glitch, [hướng dẫn upload](https://www.notion.so/coderstokyo/H-ng-d-n-upload-nh-l-n-Glitch-bec797c115f04807b469092f49986b1d)
+#### BÀI 3 
+1) Remix lại project login bài trước
+2) Thêm prop email nhận vào 1 string để trong trường hợp component cha muốn truyền vào một giá trị mặc định
+3) Truyền giá trị abc@example.com từ bên ngoài vào <LoginForm> (có thể là 1 biến nào đó nằm trong hàm render của <App>)

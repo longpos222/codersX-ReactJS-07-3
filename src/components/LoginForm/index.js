@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import './LoginForm.css';
-export const LoginForm = () => {
-    return(
+
+class LoginForm extends Component {
+  render(){
+    console.log(this.props);
+    return (
       <div className="LoginForm">
 
           <h1>Sign in</h1>
@@ -9,7 +12,7 @@ export const LoginForm = () => {
           <form method="post">
             <div class="form-group username">
               <div class="label">Username</div>
-              <input type="text" class="form-control" name="username" placeholder="Luong Quy Tan" />
+              <input type="text" class="form-control" name="username" placeholder={this.props.email} />
             </div>
 
             <div class="form-group password">
@@ -35,4 +38,7 @@ export const LoginForm = () => {
       </div>  
 
     );
+  }
 }
+
+export default LoginForm;

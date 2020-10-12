@@ -4,7 +4,6 @@ import './TabMenu.css';
 
 class TabMenu extends Component {
   render(){
-    console.log(this.props.items);
     return (
       <div className="tab-menu">
         <ul>

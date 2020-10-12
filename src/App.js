@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import {Header} from './components/Header';
-import {LoginForm} from './components/LoginForm';
-import TabMenu from './components/TabMenu/index.js';
+import LoginForm from './components/LoginForm';
+import TabMenu from './components/TabMenu/';
 
 import iconHome from './images/TabMenu-home.svg';
 import iconDeals from './images/TabMenu-deals.svg';
@@ -23,7 +23,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <LoginForm />
+        <LoginForm email='abc@gmail.com' />
         <TabMenu items={items} />
       </div>
     );
